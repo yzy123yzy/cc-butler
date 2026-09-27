@@ -1,0 +1,9 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "cc-butler",
+  "version": "0.6.0",
+  "description": "Claude Code 插件管家:统计各 plugin/skill/MCP 使用频率与 token 消耗,搜索/安装/卸载/更新插件,支持终端与本地网页仪表盘。零 hooks、零 MCP,不增加会话常驻开销。",
+  "author": { "name": "yzy" },
+  "license": "MIT",
+  "keywords": ["plugin-manager", "usage-stats", "token-tracking", "marketplace", "butler"]
+}

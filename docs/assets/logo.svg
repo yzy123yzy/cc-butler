@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b6fd4"/><stop offset="1" stop-color="#5b9dff"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="34" fill="#0f1115"/>
+  <rect x="6" y="6" width="148" height="148" rx="30" fill="none" stroke="url(#g)" stroke-width="3"/>
+  <!-- 服务铃主体 -->
+  <path d="M 38 96 A 42 42 0 0 1 122 96 Z" fill="url(#g)"/>
+  <rect x="30" y="96" width="100" height="10" rx="5" fill="#e6e9ef"/>
+  <circle cx="80" cy="46" r="7" fill="#e6e9ef"/>
+  <rect x="76" y="50" width="8" height="12" rx="3" fill="#e6e9ef"/>
+  <!-- 铃铛响线 -->
+  <g stroke="#5b9dff" stroke-width="4" stroke-linecap="round">
+    <line x1="126" y1="52" x2="136" y2="44"/>
+    <line x1="130" y1="66" x2="142" y2="62"/>
+    <line x1="34" y1="52" x2="24" y2="44"/>
+    <line x1="30" y1="66" x2="18" y2="62"/>
+  </g>
+  <!-- 徽章:插件块 -->
+  <rect x="104" y="102" width="26" height="26" rx="7" fill="#3fb96f"/>
+  <rect x="110" y="108" width="14" height="6" rx="2" fill="#0f1115"/>
+  <rect x="113" y="116" width="8" height="6" rx="2" fill="#0f1115"/>
+</svg>

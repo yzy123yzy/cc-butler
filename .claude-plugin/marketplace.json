@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-butler",
+  "owner": {
+    "name": "yzy123yzy",
+    "url": "https://github.com/yzy123yzy"
+  },
+  "metadata": {
+    "description": "Local plugins maintained on this machine"
+  },
+  "plugins": [
+    {
+      "name": "cc-butler",
+      "version": "0.6.0",
+      "source": "./plugin",
+      "description": "Claude Code 插件管家:插件/技能使用统计、token 消耗分析、搜索/安装/卸载/更新插件",
+      "keywords": ["plugin-manager", "usage-stats", "token-tracking", "marketplace"]
+    }
+  ]
+}
